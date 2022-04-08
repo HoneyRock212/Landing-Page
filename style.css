@@ -5,6 +5,7 @@ min-height: 100vh;
 justify-content: space-between;
 background: #FFFF;
 margin: 0;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -12,8 +13,8 @@ margin: 0;
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
-    padding-left: 126px;
-    padding-right: 126px;
+    padding-left: 300px;
+    padding-right: 300px;
     
 }
 
@@ -22,6 +23,7 @@ margin: 0;
     color: #F9FAF8;
     align-items: center;
     font-size: 24px;
+    font-weight: 800;
 }
 
 .header ul{
@@ -46,7 +48,7 @@ margin: 0;
 
 .container {
     display: flex;
-    padding: 58px 126px 58px 126px;
+    padding: 58px 300px 58px 300px;
     background: #1F2937;
     align-items: center;
     justify-content: space-between;
@@ -72,10 +74,107 @@ margin: 0;
 }
 
 .sign-up {
-    border-radius: 8px;
+   
     background: #3882F6;
     width: 100px;
     color: #E5E7EB;
     font-weight: 800;
     padding: 5px;
+    height: 30px;
+    border-radius: 6px;
+    
+    border: 1px solid #3882F6;
+}
+
+.information-header { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex: 1 1 auto;
+    
+
+}
+
+.content img {
+    height: 250px;
+    width: 250px;
+
+}
+
+.image-aligning p {
+    flex-wrap: wrap; 
+    width: 250px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.quote-container p {
+    width: 760px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-container .name {
+    margin-left: 1100px;
+    font-weight: 800;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-container { 
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.call-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color:#F9FAF8;
+    
+}
+
+.call-header {
+    font-weight: 800;
+}
+
+.call-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    margin-left: 300px;
+    border: 1px solid #E5E7EB;
 }
